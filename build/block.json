@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "willsides/dive-location",
+	"version": "0.1.0",
+	"title": "Dive Location",
+	"category": "text",
+	"icon": "location",
+	"description": "The dive location",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"location": {
+			"type": "string",
+			"source": "text",
+			"selector": "div",
+			"default": ""
+		}
+	},
+	"textdomain": "dive-location",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}
